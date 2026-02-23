@@ -1,0 +1,177 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aya Othman</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+          rel="stylesheet" />
+
+    <link rel="stylesheet" href="StyleSheet1.css" />
+</head>
+
+<body>
+    <!-- Hero Section -->
+    <section id="hero" class="animate-fade-in">
+        <div class="container hero-content">
+            <h1>Hi, I'm <span class="gradient-text">Aya Othman</span></h1>
+            <p>I'm a Computer Systems Engineering Student, and I'm learning programming and web development.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container animate-fade-in" style="animation-delay: 0.2s">
+            <h2 class="section-title">
+                Featured <span class="gradient-text">Projects</span>
+            </h2>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card glass-panel">
+                    <div class="project-image">
+                        <img src="card.jpg" alt="Palestinian Animals card project preview" class="project-img" />
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Palestinian Animals card</h3>
+                        <p class="project-desc">Structured card-based webpage using HTML and CSS only.</p>
+                        <a href="https://shorturl.at/q95wZ" class="btn btn-outline">View Project</a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-panel">
+                    <div class="project-image placeholder">
+                        <span>300×200</span>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">title project 2</h3>
+                        <p class="project-desc">description project 2</p>
+                        <a href="#" class="btn btn-outline">View Project</a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card glass-panel">
+                    <div class="project-image placeholder">
+                        <span>300×200</span>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">title project 3</h3>
+                        <p class="project-desc">description project 3</p>
+                        <a href="#" class="btn btn-outline">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container animate-fade-in" style="animation-delay: 0.4s">
+            <h2 class="section-title">
+                About <span class="gradient-text">Me</span>
+            </h2>
+
+            <div class="about-wrapper glass-panel">
+                <div class="about-bio">
+                    <div class="about-image-frame">
+                        <img src="image.png" alt="Coding themed illustration" class="about-img" />
+                    </div>
+
+                    <p>
+                        I am a Computer Systems Engineering student at PTUK with a growing interest in frontend development.
+                        I am currently building a strong foundation in HTML, CSS, and JavaScript,
+                        while continuously improving my problem-solving and programming skills.
+                    </p>
+                </div>
+
+                <div class="about-skills">
+                    <h3>Tech Stack</h3>
+                    <div class="skills-list">
+                        <span class="skill-badge">HTML</span>
+                        <span class="skill-badge">CSS</span>
+                        <span class="skill-badge">Python</span>
+                        <span class="skill-badge">JavaScript</span>
+                    </div>
+
+                    <h3>Languages</h3>
+                    <div class="skills-list">
+                        <span class="skill-badge">Arabic (Native)</span>
+                        <span class="skill-badge">English (Professional)</span>
+                        <span class="skill-badge">Turkish (Intermediate)</span>
+                    </div>
+
+                    <h3>Areas of Interest</h3>
+                    <div class="skills-list">
+                        <span class="skill-badge">Frontend development</span>
+                        <span class="skill-badge">Language Learning</span>
+                        <span class="skill-badge">Computer Networks</span>
+                        <span class="skill-badge">Database Systems</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container animate-fade-in" style="animation-delay: 0.6s">
+            <h2 class="section-title">
+                Contact <span class="gradient-text">Me</span>
+            </h2>
+
+            <div class="contact-wrapper glass-panel">
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text"
+                               id="name"
+                               class="form-control"
+                               placeholder="Your full name"
+                               required
+                               autocomplete="name" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email"
+                               id="email"
+                               class="form-control"
+                               placeholder="your@email.com"
+                               required
+                               autocomplete="email" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message"
+                                  class="form-control"
+                                  placeholder="How can we work together?"
+                                  required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://github.com/ayaothman20055-ux" class="social-link">GitHub</a>
+                <a href="https://www.linkedin.com/in/aya-othman-8129233b0/?isSelfProfile=true" class="social-link">LinkedIn</a>
+            </div>
+            <p class="copyright">
+                &copy; 2026 Aya Othman.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
